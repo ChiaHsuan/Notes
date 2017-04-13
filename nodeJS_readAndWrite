@@ -37,5 +37,5 @@ fs.readFile('fileName.json', (err, data) => {
 
 function writeToFile(d,i){
     var path = './filename' + i;
-    fs.writeFile(path, d, (err) => console.log(err) );
+    fs.writeFile(path, d, 'utf8', (err) => console.log(err) );
 }
