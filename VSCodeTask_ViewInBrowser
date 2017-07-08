@@ -1,0 +1,11 @@
+# VSCode 1.13.1
+# MacOS
+# Task that view the current opened html file in Chrome
+{
+    // Ref: https://code.visualstudio.com/docs/editor/tasks
+    "version": "0.1.0",
+    "command": "open",
+    "isShellCommand": true,
+    "args": ["-a", "Google Chrome", "${file}"],
+    "showOutput": "always"
+}
