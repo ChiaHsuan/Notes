@@ -1,13 +1,9 @@
 // e.g. expect(add(2,5)).toBe(5) => true of false
 
-function expect(callbackResult){
+function expect(testCase){
   return {
     toBe: function(expectedValue){
-       if(callbackResult === expectedValue){
-          return true;
-       }else{
-          return false;
-       }
+       return callbackResult === expectedValue;
     }
   }
 }
