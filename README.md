@@ -1,2 +1,2 @@
 # my code snippets
-A repo for recording what I wrote, organize what you have done is so important
+A repo for recording code settings
